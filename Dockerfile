@@ -1,4 +1,4 @@
-FROM node:lts-bookworm-slim
+FROM node:alpine
 
 COPY graphserver.js .
 COPY package.json .
