@@ -1,4 +1,4 @@
-FROM node:alpine
+FROM cgr.dev/chainguard/node:latest
 
 COPY graphserver.js .
 COPY package.json .
