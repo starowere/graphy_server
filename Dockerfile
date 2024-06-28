@@ -1,4 +1,4 @@
-FROM cgr.dev/chainguard/node:latest
+FROM node:hydrogen-buster
 
 COPY graphserver.js .
 COPY package.json .
